@@ -2,15 +2,11 @@
   <div class="bg-slate-300 h-screen flex flex-col items-center">
     <!-- Header -->
     <div class="bg-emerald-600 w-full h-20 flex items-center justify-between shadow-2xl rounded-b-full px-10">
-      <img
-        src="/images/logo.png"
-        alt=""
-        class="h-12 w-13 object-center"
-      />
+      <img src="/images/logo.png" alt="" class="h-12 w-13 object-center" />
     </div>
 
     <!-- Main Content -->
-    <div class="mt-16 border border-slate-600 rounded-xl bg-white flex items-center justify-between p-10 w- max-w- shadow-lg">
+    <div class="mt-16 border border-slate-600 rounded-xl bg-white flex items-center justify-between p-10 w-max shadow-lg">
       <!-- Text Section -->
       <div class="flex flex-col space-y-5">
         <h1 class="font-extrabold text-slate-600 text-5xl">Encryption Tool</h1>
@@ -21,7 +17,7 @@
 
       <!-- Image Section -->
       <div>
-        <img src="/images/encryption.png" alt="" class="rounded-xl h-[450px] w-auto shadow-xl">
+        <img src="/images/encryption.png" alt="" class="rounded-xl h-[450px] w-auto shadow-xl" />
       </div>
     </div>
 
@@ -30,11 +26,10 @@
       <nuxt-link to="ShiftCipher" class="bg-emerald-600 py-3 px-7 rounded-xl hover:bg-emerald-800 transition-all">Shift Cipher</nuxt-link>
       <nuxt-link to="MonoalphabeticCipher" class="bg-emerald-600 py-3 px-7 rounded-xl hover:bg-emerald-800 transition-all">Monoalphabetic Cipher</nuxt-link>
       <nuxt-link to="VigenereCipher" class="bg-emerald-600 py-3 px-7 rounded-xl hover:bg-emerald-800 transition-all">Vigenere Cipher</nuxt-link>
+      <nuxt-link to="PlayfairCipher" class="bg-emerald-600 py-3 px-7 rounded-xl hover:bg-emerald-800 transition-all">Playfair Cipher</nuxt-link> <!-- New Playfair Cipher button -->
     </div>
-
   </div>
 </template>
-
 
 <script>
 export default {
